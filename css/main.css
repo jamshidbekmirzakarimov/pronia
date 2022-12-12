@@ -358,6 +358,7 @@ ul,ol,li{
 /* **** PRODUCT SECTION STYLE START *** */
 .product-section{
   padding-top: 31px;
+  padding-bottom: 130px;
 }
 
 .bg{
@@ -373,14 +374,132 @@ ul,ol,li{
 
 .product-section-list {
   display: flex;
-  align-items: center;
+  width: 776px;
+  /* align-items: center; */
+  gap: 16px;
+  margin-left: auto;
+  margin-right: 48px;
 }
 .product-section-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 248px;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-bottom: 23px;
+  background: linear-gradient(0deg, #91C89E 0%, rgba(219, 249, 226, 0) 100%);
+  border-radius: 10px;
+}
+.product-section-item::before{
+  position: absolute;
+  content: "$54";
+  display: block;
+  width: 64px;
+  height: 28px;
+  background-color: #ffffffe6;
+  border-radius: 50px;  
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-button-color);
+  bottom: 90px;
+  right: 50px;
 }
 .porduct-section-item-img {
+  margin-bottom: 12px;
 }
+
 .product-section-title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--header-text-color);
+  margin: 0;
+}
+
+.product-section-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-section-btn {
+  padding: 14px 15px;
+  border: 1px solid var(--main-button-color);
+  border-radius: 50%;
+  background-color: var(--main-bg-color);
+  color: var(--main-button-color);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+
+.product-section-btn:hover{
+  background-color: var(--main-button-color);
+  color: var(--text-color);
+}
+.product-section-btn:active{
+  background-color: var(--main-button-color);
+  color: var(--text-color);
 }
 /* **** PRODUCT SECTION STYLE END *** */
 
+
+/* *** OUR BENEFITS START*** */
+.our-benefits-section {
+  padding-bottom: 102px;
+}
+
+.Our-Benefits-title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 59px;
+  
+}
+.our-benefits-list {
+  display: flex;
+}
+.our-benefits-itme {
+  width: 100%;
+  max-width: 291px;
+}
+.our-benefits-item-title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--header-text-color);
+  margin
+  margin-bottom: 14px;
+}
+
+.our-benefits-item-subtitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #808080;
+  
+}
+/* *** OUR BENEFITS END*** */
 /* **** MAIN END **** */
