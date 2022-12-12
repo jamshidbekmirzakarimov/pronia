@@ -497,8 +497,8 @@ ul,ol,li{
     text-transform: capitalize;
     color: var(--main-text-color);
   }
-
-
+  
+  
   .hero-section-right-subtitle{
     width: 100%;
     max-width: 150px;
@@ -532,7 +532,7 @@ ul,ol,li{
     text-transform: capitalize;
     margin-right: 10px;
   }
-
+  
   .bg{
     position: initial;
     width: 111px;
@@ -648,10 +648,17 @@ ul,ol,li{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 776px;
+    width: 0px;
     gap: 16px;
     margin-left: auto;
     margin-right: 0;
+  }
+  
+  .product-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 /* *** PRODUCT SECTION RESPONSIVE END *** */
@@ -661,6 +668,7 @@ ul,ol,li{
 /* *** OUR BENEFITS START*** */
 .our-benefits-section {
   padding-bottom: 102px;
+  background: #F1FEF4;
 }
 
 .Our-Benefits-title {
@@ -757,11 +765,131 @@ ul,ol,li{
     justify-content: center;
     flex-wrap: wrap;
   }
-
+  
   .our-benefits-section {
     padding-bottom: 92px;
   }
 }
 /* **** OUR BENEFITS RESPONSIVE END **** */
 /* *** OUR BENEFITS END*** */
+
+/* ****** PLANTATION SECTION STYLE START ***** */
+
+.plantation-section {
+  padding-top: 102px;
+  padding-bottom: 120px;
+  background-color: #FBFBFB;
+}
+
+.plantation-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plantation-section-start {
+}
+.plantation-section-start-img {
+  width: 459px;
+  height: 442px;
+  background-image: url(../images/plantaion-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.plantation-section-end {
+  
+}
+.plantation-section-end-title {
+  width: 100%;
+  max-width: 290px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  
+}
+.plantation-section-end-subtitle {
+  width: 100%;
+  max-width: 611px;
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #808080;
+}
+.plantation-section-end-btn {
+  padding: 20px 37px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: var(--text-color);
+  background: #05A42C;
+  border-radius: 8px;
+}
+/* ****** PLANTATION SECTION STYLE END ***** */
+
+/* ****** SELLING TREES SECTION START ****** */
+.selling-trees-section {
+  padding-top: 100px;
+  padding-bottom: 104px;
+}
+
+
+.selling-trees-section-title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.selling-trees-section-subtitle {
+  max-width: 663px;
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #666666;
+}
+.selling-trees-section-list {
+}
+.selling-terrs-item {
+}
+.selling-trees-img-box {
+}
+.selling-trees-flower-img {
+}
+.selling-section-item-star-box {
+}
+.selling-trees-item-title {
+}
+.selling-trees-item-subtitle {
+}
+.selling-trees-item-bottom {
+}
+.selling-trees-item-price {
+}
+.selling-trees-item-bottom-link {
+}
+.selling-trees-item-bottom-title {
+}
+.selling-trees-item-botton-img {
+}
+/* ****** SELLING TREES SECTION END ****** */
 /* **** MAIN END **** */
