@@ -353,6 +353,11 @@ ul,ol,li{
 .hero-section-car-img{
   margin-right: 20px;
 }
+
+/* ***** HERO SECTION RESPONSIVE START **** */
+
+/* ***** HERO SECTION RESPONSIVE END **** */
+
 /* ***** HERO SECTION STYLE END **** */
 
 /* **** PRODUCT SECTION STYLE START *** */
@@ -450,6 +455,12 @@ ul,ol,li{
   background-color: var(--main-button-color);
   color: var(--text-color);
 }
+
+/* *** PRODUCT SECTION RESPONSIVE START *** */
+@media only screen and (max-width: 768px) {
+  
+}
+/* *** PRODUCT SECTION RESPONSIVE END *** */
 /* **** PRODUCT SECTION STYLE END *** */
 
 
@@ -473,10 +484,40 @@ ul,ol,li{
 }
 .our-benefits-list {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .our-benefits-itme {
   width: 100%;
   max-width: 291px;
+}
+
+.our-benefits-itme::before{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.our-benefits-itme:first-child::before{
+  width: 37px;
+  height: 51px;
+  background-image: url(../images/medal.svg);
+}
+
+.our-benefits-itme:nth-child(2)::before{
+  width: 50px;
+  height: 43px;
+  background-image: url(../images/free.svg);
+}
+
+.our-benefits-itme:last-child::before{
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/best.svg);
 }
 .our-benefits-item-title {
   font-family: 'Lora';
@@ -487,7 +528,7 @@ ul,ol,li{
   text-align: center;
   text-transform: capitalize;
   color: var(--header-text-color);
-  margin
+  margin-top: 0;
   margin-bottom: 14px;
 }
 
