@@ -137,7 +137,7 @@ ul,ol,li{
   background-image: linear-gradient(90deg, #c9fdd600 0%, #C9FDD6 100%);
   background-image: url(../images/hero-section-bg.svg), linear-gradient(90deg, #c9fdd600 0%, #C9FDD6 100%);
   background-repeat: no-repeat;
-  background-position: calc(50% + 420px) calc(50% - 200px), center center;
+  background-position: calc(50% + 620px) calc(50% - 200px), center center;
 }
 
 .site-header{
@@ -259,6 +259,7 @@ ul,ol,li{
 /* **** MAIN START **** */
 /* ***** HERO SECTION STYLE START **** */
 .hero-section{
+  position: relative;
   padding-top: 103px;
   padding-bottom: 136px;
 }
@@ -307,13 +308,35 @@ ul,ol,li{
   line-height: 36px;
   letter-spacing: 0.06em;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: var(--text-color);
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 40px;
 }
-.hero-section-arrow-right {
-  
+
+.site-header-add {
+  /* position: absolute; */
+  display: inline-block;
+  padding: 8px;
+  background-color: var(--text-color);
+  box-shadow: 0px 10px 20px #000000cc;
+  border-radius: 50%;
 }
+.site-header-add-img {
+}
+
 /* ***** HERO SECTION STYLE END **** */
+
+/* **** PRODUCT SECTION STYLE START *** */
+.product-section{
+  padding-top: 31px;
+}
+
+.bg{
+  position: absolute;
+  top: 0px;
+  right: calc(50% + 100px);
+}
+/* **** PRODUCT SECTION STYLE END *** */
+
 /* **** MAIN END **** */
