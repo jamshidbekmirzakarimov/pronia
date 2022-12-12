@@ -840,8 +840,16 @@ ul,ol,li{
 .selling-trees-section {
   padding-top: 100px;
   padding-bottom: 104px;
+  background-color: #F1FEF4;
 }
 
+.selling-trees-section-title-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 421px;
+}
 
 .selling-trees-section-title {
   font-family: 'Lora';
@@ -859,7 +867,7 @@ ul,ol,li{
   width: 100%;
   max-width: 663px;
   margin-top: 0;
-  margin-bottom: 48px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -869,28 +877,138 @@ ul,ol,li{
   color: #666666;
 }
 .selling-trees-section-list {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  /* padding-top: 451px; */
 }
 .selling-terrs-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-right: 28px;
+  padding-left: 28px;
+  /* padding-bottom: 34px; */
+  background-color: var(--text-color);
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.selling-terrs-item:hover{
+  background-color: var(--main-button-color);
+}
+
+.selling-terrs-item:hover .selling-trees-item-title{
+  color: #fff;
+}
+
+.selling-terrs-item:hover .selling-trees-item-subtitle{
+  color: #C9FDD6;
+}
+
+.selling-terrs-item:hover .selling-trees-img-box{
+  color: var(--text-color);
+}
+
+.selling-terrs-item:hover .selling-trees-item-price{
+  color: var(--text-color);
+}
+
+.selling-terrs-item:hover .selling-trees-item-bottom-link{
+  background: #046D1E;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.selling-terrs-item:hover .selling-trees-item-bottom-title{
+  color: #fff;
+}
+
+.selling-terrs-item:hover selling-trees-item-bottom-arrow{
+  color: var(--text-color);
+}
+
 .selling-trees-img-box {
+  display: flex;
+  margin-bottom: 41px;
+  color: var(--main-button-color);
 }
 .selling-trees-flower-img {
+  position: absolute;
+  top: -350px;
+  right: 30%;
+  margin: 0 auto;
+  
 }
 .selling-section-item-star-box {
+  margin-left: 150px;
 }
 .selling-trees-item-title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--header-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .selling-trees-item-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #808080;
+  margin-top: 0;
+  margin-bottom: 36px;
 }
 .selling-trees-item-bottom {
+  display: flex;
+  align-items: center;
+  gap: 60px;
 }
 .selling-trees-item-price {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--main-button-color);
 }
 .selling-trees-item-bottom-link {
+  display: flex;
+  align-items: center;
+  padding: 8px 25px;
 }
 .selling-trees-item-bottom-title {
+  margin: 0;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;  
+  color: var(--main-text-color);
+  margin-right: 8px;
 }
 .selling-trees-item-botton-img {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #05A42C;
 }
 /* ****** SELLING TREES SECTION END ****** */
 /* **** MAIN END **** */
