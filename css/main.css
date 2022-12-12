@@ -84,6 +84,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  
 }
 
 body {
@@ -322,9 +323,36 @@ ul,ol,li{
   box-shadow: 0px 10px 20px #000000cc;
   border-radius: 50%;
 }
-.site-header-add-img {
+
+.hero-section-car{
+  position: absolute;
+  padding: 24px 28px;
+  top: 380px;
+  left: 80px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(126, 247, 156, 0.35) 2.38%, rgba(255, 255, 255, 0.2275) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
 }
 
+.hero-section-star-title{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hero-section-car-box{
+  display: flex;
+  align-items: center;
+}
+
+.hero-section-car-img{
+  margin-right: 20px;
+}
 /* ***** HERO SECTION STYLE END **** */
 
 /* **** PRODUCT SECTION STYLE START *** */
@@ -336,6 +364,22 @@ ul,ol,li{
   position: absolute;
   top: 0px;
   right: calc(50% + 100px);
+}
+
+.product-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.product-section-list {
+  display: flex;
+  align-items: center;
+}
+.product-section-item {
+}
+.porduct-section-item-img {
+}
+.product-section-title {
 }
 /* **** PRODUCT SECTION STYLE END *** */
 
