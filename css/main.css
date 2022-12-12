@@ -834,6 +834,13 @@ ul,ol,li{
   background: #05A42C;
   border-radius: 8px;
 }
+
+/* ******* PLANTATION SECTION STYLE RESPONSIVE START ******* */
+@media only screen and (max-width: 768px) {
+  
+}
+/* ******* PLANTATION SECTION STYLE RESPONSIVE END ******* */
+
 /* ****** PLANTATION SECTION STYLE END ***** */
 
 /* ****** SELLING TREES SECTION START ****** */
@@ -941,7 +948,7 @@ ul,ol,li{
   top: -350px;
   right: 30%;
   margin: 0 auto;
-  
+
 }
 .selling-section-item-star-box {
   margin-left: 150px;
