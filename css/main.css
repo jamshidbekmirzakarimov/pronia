@@ -355,7 +355,192 @@ ul,ol,li{
 }
 
 /* ***** HERO SECTION RESPONSIVE START **** */
+@media only screen and (max-width: 768px){
+  .hero-section{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+  .hero-section-wrapper{
+    display: flex;
+  }
+  .hero-section-right-title {
+    width: 100%;
+    max-width: 282px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+  }
+  .bg{
+    position: absolute;
+    width: 511px;
+    height: 822px;
+    top: 0px;
+    right: calc(50% + 100px);
+  }
+  
+  .hero-section-right-subtitle{
+    width: 100%;
+    max-width: 450px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #666666;
+    margin-top: 0;
+  }
+  .hero-section-right {
+    margin-left: auto;
+    width: 382px;
+  }
+  
+  .hero-section-btn {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    background-color: var(--main-button-color);
+    border-radius: 8px;
+    padding: 15px 35px;
+    border: none;
+  }
+  .hero-section-btn-title {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    margin-right: 20px;
+  }
+  
+  .hero-section-arrow-right{
+    width: 18px;
+    height:  10px;
+  }
+  
+  .hero-section-car{
+    position: absolute;
+    padding: 18px 20px;
+    top: 380px;
+    left: 80px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(126, 247, 156, 0.35) 2.38%, rgba(255, 255, 255, 0.2275) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .hero-section-star-title{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+  
+  .hero-section-car-box{
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-section-car-img{
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+  }
+  .hero-section-star-img{
+    width: 12px;
+    height: 12px;
+  }
+  .hero-section-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 
+@media only screen and (max-width: 600px){
+  .hero-section-car{
+    position: inherit;
+    padding: 18px 20px;
+    top: 380px;
+    left: 80px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(126, 247, 156, 0.35) 2.38%, rgba(255, 255, 255, 0.2275) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  .hero-section-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-section-right-title {
+    width: 100%;
+    max-width: 182px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+  }
+
+
+  .hero-section-right-subtitle{
+    width: 100%;
+    max-width: 150px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #666666;
+    margin-top: 0;
+  }
+  .hero-section-right {
+    margin-left: auto;
+    width: 182px;
+  }
+  
+  .hero-section-btn {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    background-color: var(--main-button-color);
+    border-radius: 8px;
+    padding: 10px 25px;
+    border: none;
+  }
+  .hero-section-btn-title {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    margin-right: 10px;
+  }
+
+  .bg{
+    position: initial;
+    width: 111px;
+    height: 222px;
+    top: 0px;
+    right: calc(50% + 100px);
+  }
+}
 /* ***** HERO SECTION RESPONSIVE END **** */
 
 /* ***** HERO SECTION STYLE END **** */
@@ -458,7 +643,16 @@ ul,ol,li{
 
 /* *** PRODUCT SECTION RESPONSIVE START *** */
 @media only screen and (max-width: 768px) {
-  
+  .product-section-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 776px;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 /* *** PRODUCT SECTION RESPONSIVE END *** */
 /* **** PRODUCT SECTION STYLE END *** */
@@ -540,7 +734,30 @@ ul,ol,li{
   letter-spacing: 0.01em;
   text-transform: capitalize;
   color: #808080;
-  
 }
+
+/* **** OUR BENEFITS RESPONSIVE START **** */
+@media only screen and (max-width: 768px) {
+  .Our-Benefits-title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+    margin-top: 0;
+    margin-bottom: 59px;
+    
+  }
+  .our-benefits-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+/* **** OUR BENEFITS RESPONSIVE END **** */
 /* *** OUR BENEFITS END*** */
 /* **** MAIN END **** */
