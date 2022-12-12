@@ -757,6 +757,10 @@ ul,ol,li{
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  .our-benefits-section {
+    padding-bottom: 92px;
+  }
 }
 /* **** OUR BENEFITS RESPONSIVE END **** */
 /* *** OUR BENEFITS END*** */
