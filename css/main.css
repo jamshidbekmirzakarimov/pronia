@@ -856,6 +856,7 @@ ul,ol,li{
   margin-bottom: 16px;
 }
 .selling-trees-section-subtitle {
+  width: 100%;
   max-width: 663px;
   margin-top: 0;
   margin-bottom: 48px;
