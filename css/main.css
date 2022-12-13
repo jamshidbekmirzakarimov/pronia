@@ -1264,6 +1264,38 @@ ul,ol,li{
   background-color: #FBFBFB;
 }
 
+.our-services-section-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.our-services-section-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+.our-services-section-subtitle {
+  width: 100%;
+  max-width: 663px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #666666;
+}
+
 .our-services-section-wrapper {
   display: flex;
   align-items: center;
@@ -1271,6 +1303,8 @@ ul,ol,li{
 }
 
 .our-secvices-section-item {
+  width: 100%;
+  max-width: 353px;
   margin-bottom: 48px;
 }
 
@@ -1304,5 +1338,70 @@ ul,ol,li{
 .our-services-section-img {
   margin-right: 23px;
 }
+
+/* ****** OUR-SECRVICES-SECTION-RESPONSIVE-START ****** */
+@media only screen and (max-width: 768px) {
+  .our-services-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .our-services-section-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+  }
+  .our-services-section-subtitle {
+    width: 100%;
+    max-width: 663px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #666666;
+  }
+
+  .our-services-section-item-title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-transform: capitalize;
+    color: var(--header-text-color);
+    margin-top: 0;
+    margin-bottom: 14px;
+    
+  }
+  .our-services-section-item-subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #808080;
+    margin: 0;
+    width: 100%;
+    max-width: 353px;
+  }
+
+  .our-secvices-section-item {
+    width: 100%;
+    max-width: 353px;
+    margin-bottom: 35px;
+  }
+}
+/* ****** OUR-SECRVICES-SECTION-RESPONSIVE-END ****** */
 /* ***** OUR-SECRVICES-SECTION-END ****** */
 /* **** MAIN END **** */
