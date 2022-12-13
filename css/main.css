@@ -780,8 +780,7 @@ ul,ol,li{
 /* **** OUR BENEFITS RESPONSIVE END **** */
 /* *** OUR BENEFITS END*** */
 
-/* ****** PLANTATION SECTION STYLE START ***** */
-
+/* ****** PLANTATION SECTION START ****** */
 .plantation-section {
   padding-top: 102px;
   padding-bottom: 120px;
@@ -791,32 +790,28 @@ ul,ol,li{
 .plantation-section-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
-
-.plantation-section-start-img {
+.plantation-section-img {
   width: 459px;
   height: 442px;
   background-image: url(../images/plantaion-bg.svg);
   background-repeat: no-repeat;
   background-position: right;
+  margin-right: 63px;
 }
 
-.plantation-section-end-title {
+.plantation-section-title {
   width: 100%;
-  max-width: 290px;
+  max-width: 300px;
   margin-top: 0;
   margin-bottom: 24px;
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 500;
   font-size: 40px;
   line-height: 56px;
   text-transform: capitalize;
   color: var(--main-text-color);
-  
 }
-.plantation-section-end-subtitle {
+.plantation-section-subtitle {
   width: 100%;
   max-width: 611px;
   margin-top: 0;
@@ -828,204 +823,138 @@ ul,ol,li{
   text-transform: capitalize;
   color: #808080;
 }
-.plantation-section-end-btn {
+.plantation-section-btn {
   padding: 20px 37px;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.06em;
   text-transform: capitalize;
-  color: var(--text-color);
-  background: #05A42C;
+  color: var(--main-bg-color);
+  background-color: #05A42C;
   border-radius: 8px;
+  text-decoration: none;
 }
 
-/* ******* PLANTATION SECTION STYLE RESPONSIVE START ******* */
+/* ***** PLANTATION SECTION RESPONSIVE START ***** */
+@media only screen and (max-width: 1000px) {
+  .plantation-section-title {
+      width: 100%;
+      max-width: 250px;
+      margin-top: 0;
+      margin-bottom: 24px;
+      font-size: 30px;
+      line-height: 40px;
+      text-transform: capitalize;
+      color: var(--main-text-color);
+  }
+  .plantation-section-subtitle {
+      width: 100%;
+      max-width: 311px;
+      margin-top: 0;
+      margin-bottom: 48px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      text-transform: capitalize;
+      color: #808080;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  .plantation-section {
-    padding-top: 90px;
-    padding-bottom: 110px;
-    background-color: #FBFBFB;
+  .plantation-section-img {
+      width: 359px;
+      height: 342px;
+      background-image: url(../images/plantation-bg.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+      margin-right: 40px;
+  }
+  .plantation-section-subtitle {
+      width: 100%;
+      max-width: 311px;
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      text-transform: capitalize;
+      color: #808080;
   }
   
-  .plantation-section-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .plantation-section-btn {
+      padding: 15px 32px;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.06em;
+      text-transform: capitalize;
+      color: var(--main-bg-color);
+      background-color: #05A42C;
+      border-radius: 8px;
+      text-decoration: none;
   }
-  
-  .plantation-section-start-img {
-    width: 400px;
-    height: 400px;
-    background-image: url(../images/plantaion-bg.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-  
-  .plantation-section-end-title {
-    width: 100%;
-    max-width: 290px;
-    margin-top: 0;
-    margin-bottom: 24px;
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 56px;
-    text-transform: capitalize;
-    color: var(--main-text-color);
-    
-  }
-  
-  .plantation-section-end-subtitle {
-    width: 100%;
-    max-width: 611px;
-    margin-top: 0;
-    margin-bottom: 48px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #808080;
-  }
-  .plantation-section-end-btn {
-    padding: 18px 35px;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.06em;
-    text-transform: capitalize;
-    color: var(--text-color);
-    background: #05A42C;
-    border-radius: 8px;
-  }
-  
 }
 
-@media only screen and (max-width: 550px) {
-  .plantation-section {
-    padding-top: 90px;
-    padding-bottom: 110px;
-    background-color: #FBFBFB;
-  }
-  
+@media only screen and (max-width: 600px) {
   .plantation-section-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
   }
-  
-  .plantation-section-start-img {
-    width: 350px;
-    height: 350px;
-    background-image: url(../images/plantaion-bg.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-  
-  .plantation-section-end-title {
-    width: 100%;
-    max-width: 290px;
-    margin-top: 0;
-    margin-bottom: 18px;
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 40px;
-    text-transform: capitalize;
-    color: var(--main-text-color);
-    
-  }
-  
-  .plantation-section-end-subtitle {
-    width: 100%;
-    max-width: 611px;
-    margin-top: 0;
-    margin-bottom: 35px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #808080;
-  }
-  .plantation-section-end-btn {
-    padding: 16px 33px;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.06em;
-    text-transform: capitalize;
-    color: var(--text-color);
-    background: #05A42C;
-    border-radius: 8px;
-  }
-  
-}
 
-@media only screen and (max-width: 500px) {
-  .plantation-section {
-    padding-top: 90px;
-    padding-bottom: 110px;
-    background-color: #FBFBFB;
+  .plantation-section-title {
+      width: 100%;
+      max-width: 250px;
+      margin-top: 0;
+      margin-bottom: 24px;
+      font-size: 30px;
+      line-height: 40px;
+      text-transform: capitalize;
+      color: var(--main-text-color);
+      text-align: center;
+  }
+
+  .plantation-section-subtitle {
+      width: 100%;
+      max-width: 311px;
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
   }
   
-  .plantation-section-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+  .plantation-section-btn {
+      padding: 15px 32px;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.06em;
+      text-align: center;
   }
-  
-  .plantation-section-start-img {
-    width: 350px;
-    height: 350px;
-    background-image: url(../images/plantaion-bg.svg);
-    background-repeat: no-repeat;
-    background-position: right;
+
+  .plantation-section-end{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
   }
-  
-  .plantation-section-end-title {
-    width: 100%;
-    max-width: 290px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    text-transform: capitalize;
-    color: var(--main-text-color);
-    
-  }
-  
-  .plantation-section-end-subtitle {
-    width: 100%;
-    max-width: 611px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #808080;
-  }
-  .plantation-section-end-btn {
-    padding: 14px 30px;
-    font-size: 10px;
-    line-height: 20px;
-    letter-spacing: 0.06em;
-    text-transform: capitalize;
-    color: var(--text-color);
-    background: #05A42C;
-    border-radius: 8px;
+
+  .plantation-section-img {
+      width: 359px;
+      height: 342px;
+      background-image: url(../images/plantation-bg.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+      margin-right: 0;
+      margin-bottom: 20px;
   }
 }
-/* ******* PLANTATION SECTION STYLE RESPONSIVE END ******* */
+/* ***** PLANTATION SECTION RESPONSIVE END ***** */
 
-/* ****** PLANTATION SECTION STYLE END ***** */
+/* ****** PLANTATION SECTION START ****** */
 
 /* ****** SELLING TREES SECTION START ****** */
 .selling-trees-section {
