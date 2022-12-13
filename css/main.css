@@ -790,8 +790,8 @@ ul,ol,li{
 
 .plantation-section-wrapper {
   display: flex;
- align-items: center;
- justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .plantation-section-start-img {
@@ -875,7 +875,7 @@ ul,ol,li{
     color: var(--main-text-color);
     
   }
-
+  
   .plantation-section-end-subtitle {
     width: 100%;
     max-width: 611px;
@@ -936,7 +936,7 @@ ul,ol,li{
     color: var(--main-text-color);
     
   }
-
+  
   .plantation-section-end-subtitle {
     width: 100%;
     max-width: 611px;
@@ -999,7 +999,7 @@ ul,ol,li{
     color: var(--main-text-color);
     
   }
-
+  
   .plantation-section-end-subtitle {
     width: 100%;
     max-width: 611px;
@@ -1132,7 +1132,7 @@ ul,ol,li{
   top: -350px;
   right: 30%;
   margin: 0 auto;
-
+  
 }
 .selling-section-item-star-box {
   margin-left: 150px;
@@ -1202,4 +1202,107 @@ ul,ol,li{
   color: #05A42C;
 }
 /* ****** SELLING TREES SECTION END ****** */
+/* ******* SELLING TREES SECTION RESPONSIVE START ******* */
+@media only screen and (max-width:1029px) {
+  .selling-trees-section-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 400px;
+    /* padding-top: 451px; */
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .selling-trees-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F1FEF4;
+  }
+  
+  .selling-trees-section-title-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 421px;
+  }
+  
+  .selling-trees-section-title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .selling-trees-section-subtitle {
+    width: 100%;
+    max-width: 463px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #666666;
+  }
+}
+/* ******* SELLING TREES SECTION RESPONSIVE END ******* */
+
+/* ***** OUR-SECRVICES-SECTION-START ****** */
+.our-services-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FBFBFB;
+}
+
+.our-services-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-secvices-section-item {
+  margin-bottom: 48px;
+}
+
+.our-secvices-section-item:last-child{
+  margin-bottom: 0;
+}
+.our-services-section-item-title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  text-transform: capitalize;
+  color: var(--header-text-color);
+  margin-top: 0;
+  margin-bottom: 14px;
+  
+}
+.our-services-section-item-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #808080;
+  margin: 0;
+  width: 100%;
+  max-width: 353px;
+}
+.our-services-section-img {
+  margin-right: 23px;
+}
+/* ***** OUR-SECRVICES-SECTION-END ****** */
 /* **** MAIN END **** */
